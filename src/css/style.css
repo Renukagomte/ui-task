@@ -1,0 +1,21 @@
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    padding: 25px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 10px #eee;
+   
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{ 
+    font-size: 20px !important;
+    text-align: center;
+   
+}
+
+.swiper-pagination-bullet {
+    background-color: "#46B19D";
+}
